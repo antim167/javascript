@@ -5,7 +5,7 @@ b="a nice day";
 
 console.log("multiplication is:-"+(a*b));
 //fuction declaration
-function hello(n,m){
+function hello(n,m){//formal argument
     d="good morning ";//local variable
     console.log("hello antim "+ d+(n+m));
 }
