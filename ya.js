@@ -13,12 +13,19 @@ class MyClass {
         console.log(`hello antim`);//method body
         console.log(`the sum is ${a+b}`);
         this.myFuction1(a,b);
-
+          this.myFuction2(a,b);
     }
     myFuction1(c,d) {
 
         console.log(`hello. prayukta`);//mehod body
         console.log(`the multiplication is ${c*d}`);
+      
+
+    }
+    myFuction2(e,f) {
+
+        console.log(`hello. nannu`);//mehod body
+        console.log(`the sub is ${e-f}`);
       
 
     }
