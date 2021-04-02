@@ -120,6 +120,3 @@ class F extends E {
 //let object=new ClassName();
 let obj = new F("antim songara");
 
-obj.myFunction5("hello prayukta");
-
-
