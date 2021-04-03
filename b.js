@@ -12,6 +12,7 @@ class MyClass{
     //3.method
     myFun(){
         console.log(this.information);
+        //use forin lop 
         for (const key in this.information) {
           
                 console.log(`${key} -> ${this.information[key]}`);
