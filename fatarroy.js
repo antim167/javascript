@@ -61,3 +61,4 @@ function myFunction3(phy, maths, che) {
 }
 var m = myFunction3(89, 98, 88);
          precentage(m);
+//
