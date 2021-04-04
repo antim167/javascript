@@ -21,7 +21,7 @@ class MyClass{
         }
     }
 }
-//end class
+//end classs
 
 //create an external object of the class
 //let obj =new ClassName();
