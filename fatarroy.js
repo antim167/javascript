@@ -41,28 +41,23 @@ const b = hello2(23, 45);
 console.log(b);
 //4)far_arroy function
 let total = (z) =>{
-    console.log(`hii${z}`);
+    console.log(`hii ${z/3}%`);
 }
 let hello3 = (phy, maths, che) =>{
     return (`${phy + maths + che}`);
 
 }
 let z =hello3(34,56,78);
-return total(z);
+ total(z);
     //normal function 
 
-    //4)
-    let Y = myFunction3(89, 98, 88);
-    var m = myFunction3(89, 98, 88);
-return precentage(m);
+    //4) // 
+function precentage(Y) {
 
-
-    function precentage(Y) {
-
-        console.log(`prcentage ${Y} `);
+        console.log(`prcentage ${Y/3} %`);
     }
 function myFunction3(phy, maths, che) {
     return (`${phy + maths + che}`);
 }
-
-//return precentage(y);
+var m = myFunction3(89, 98, 88);
+         precentage(m);
